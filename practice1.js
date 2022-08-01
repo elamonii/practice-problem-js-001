@@ -20,11 +20,19 @@ var Jane = 95;
 var Peter = 56;
 var John = 40;
 
-// var number
+var studentScore = 60
 
-// if(){
-
-// }
+if(studentScore >= 80){
+    console.log('Grade: A');
+}else if(studentScore < 80 && studentScore >= 60){
+    console.log('Grade: B');
+}else if(studentScore < 60 && studentScore >= 50){
+    console.log('Grade: C');
+}else if(studentScore < 50 && studentScore >= 40){
+    console.log('Grade: D');
+}else if(studentScore <= 39){
+    console.log('Grade: F');
+}
 
 // Practice Problem 003(a) ==================================
 var x = 13;
